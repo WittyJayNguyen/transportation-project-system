@@ -1,0 +1,9 @@
+.custom-overrides .header:not(.transparent) .header-bottom-nav.nav > li > a,
+.custom-overrides .header:not(.transparent) .header-bottom-nav.nav > li:hover > a,
+.custom-overrides .header-bottom-nav.nav > li.current-menu-item > a {
+	color: #ffffff;
+}
+
+.custom-overrides .nav-dropdown {
+    max-width: 400px;
+}

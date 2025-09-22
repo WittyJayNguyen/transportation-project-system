@@ -1,0 +1,315 @@
+[22-Sep-2025 09:45:41 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[22-Sep-2025 09:46:04 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:46:04 UTC] PHP Stack trace:
+[22-Sep-2025 09:46:04 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:0
+[22-Sep-2025 09:46:04 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:13
+[22-Sep-2025 09:46:04 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin.php:35
+[22-Sep-2025 09:46:04 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:46:04 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:46:04 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:46:04 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:46:04 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:46:04 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:46:04 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:46:04 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:46:04 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:46:04 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:46:04 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:46:04 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:46:04 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:46:04 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:46:06 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:46:06 UTC] PHP Stack trace:
+[22-Sep-2025 09:46:06 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:0
+[22-Sep-2025 09:46:06 UTC] PHP   2. require() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:17
+[22-Sep-2025 09:46:06 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-blog-header.php:13
+[22-Sep-2025 09:46:06 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:46:06 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:46:06 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:46:06 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:46:06 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:46:06 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:46:06 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:46:06 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:46:06 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:46:06 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:46:06 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:46:06 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:46:06 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:46:06 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:46:19 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:46:19 UTC] PHP Stack trace:
+[22-Sep-2025 09:46:20 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:46:20 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:46:20 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:46:20 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:46:20 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:46:20 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:46:20 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:46:20 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:46:20 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:46:20 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:46:20 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:46:20 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:46:20 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:46:20 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:46:20 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:46:20 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:46:25 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:46:25 UTC] PHP Stack trace:
+[22-Sep-2025 09:46:25 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:0
+[22-Sep-2025 09:46:25 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:13
+[22-Sep-2025 09:46:25 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin.php:35
+[22-Sep-2025 09:46:25 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:46:25 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:46:25 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:46:25 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:46:25 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:46:25 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:46:25 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:46:25 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:46:25 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:46:25 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:46:25 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:46:25 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:46:25 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:46:25 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:46:27 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:46:27 UTC] PHP Stack trace:
+[22-Sep-2025 09:46:27 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:0
+[22-Sep-2025 09:46:27 UTC] PHP   2. require() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:17
+[22-Sep-2025 09:46:27 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-blog-header.php:13
+[22-Sep-2025 09:46:27 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:46:27 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:46:27 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:46:27 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:46:27 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:46:27 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:46:27 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:46:27 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:46:27 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:46:27 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:46:27 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:46:27 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:46:27 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:46:27 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:46:34 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:46:34 UTC] PHP Stack trace:
+[22-Sep-2025 09:46:34 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:46:34 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:46:34 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:46:34 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:46:34 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:46:34 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:46:34 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:46:34 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:46:34 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:46:34 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:46:34 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:46:34 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:46:34 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:46:34 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:46:34 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:46:34 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:49:02 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:49:02 UTC] PHP Stack trace:
+[22-Sep-2025 09:49:02 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:0
+[22-Sep-2025 09:49:02 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:13
+[22-Sep-2025 09:49:02 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin.php:35
+[22-Sep-2025 09:49:02 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:49:02 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:49:02 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:49:02 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:49:02 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:49:02 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:49:02 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:49:02 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:49:02 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:49:02 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:49:02 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:49:02 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:49:02 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:49:02 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:49:04 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:49:04 UTC] PHP Stack trace:
+[22-Sep-2025 09:49:04 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:0
+[22-Sep-2025 09:49:04 UTC] PHP   2. require() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:17
+[22-Sep-2025 09:49:04 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-blog-header.php:13
+[22-Sep-2025 09:49:04 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:49:04 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:49:04 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:49:04 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:49:04 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:49:04 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:49:04 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:49:04 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:49:04 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:49:04 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:49:04 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:49:04 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:49:04 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:49:04 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:49:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:49:16 UTC] PHP Stack trace:
+[22-Sep-2025 09:49:17 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:49:17 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:49:17 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:49:17 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:49:17 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:49:17 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:49:17 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:49:17 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:49:17 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:49:17 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:49:17 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:49:17 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:49:17 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:49:17 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:49:17 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:49:17 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:50:33 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:50:33 UTC] PHP Stack trace:
+[22-Sep-2025 09:50:33 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:0
+[22-Sep-2025 09:50:33 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/customize.php:13
+[22-Sep-2025 09:50:33 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin.php:35
+[22-Sep-2025 09:50:33 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:50:33 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:50:33 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:50:33 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:50:33 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:50:33 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:50:33 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:50:33 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:50:33 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:50:33 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:50:33 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:50:33 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:50:33 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:50:33 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:50:35 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:50:35 UTC] PHP Stack trace:
+[22-Sep-2025 09:50:35 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:0
+[22-Sep-2025 09:50:35 UTC] PHP   2. require() /Volumes/DataInstallation/WFH/transportation-project-system/index.php:17
+[22-Sep-2025 09:50:35 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-blog-header.php:13
+[22-Sep-2025 09:50:35 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:50:35 UTC] PHP   5. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:50:35 UTC] PHP   6. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:50:35 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:50:35 UTC] PHP   8. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:50:35 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:50:35 UTC] PHP  10. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:50:35 UTC] PHP  11. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:50:35 UTC] PHP  12. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:50:35 UTC] PHP  13. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:50:35 UTC] PHP  14. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:50:35 UTC] PHP  15. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:50:35 UTC] PHP  16. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:50:35 UTC] PHP  17. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:51:38 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:51:38 UTC] PHP Stack trace:
+[22-Sep-2025 09:51:38 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:51:38 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:51:38 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:51:38 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:51:38 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:51:38 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:51:38 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:51:38 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:51:38 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:51:38 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:51:38 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:51:38 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:51:38 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:51:38 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:51:38 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:51:38 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:52:48 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:52:48 UTC] PHP Stack trace:
+[22-Sep-2025 09:52:48 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:52:48 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:52:48 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:52:48 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:52:48 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:52:48 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:52:48 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:52:48 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:52:48 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:52:48 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:52:48 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:52:48 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:52:48 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:52:48 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:52:48 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:52:48 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:53:48 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:53:48 UTC] PHP Stack trace:
+[22-Sep-2025 09:53:49 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:53:49 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:53:49 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:53:49 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:53:49 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:53:49 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:53:49 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:53:49 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:53:49 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:53:49 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:53:49 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:53:49 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:53:49 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:53:49 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:53:49 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:53:49 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:55:49 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:55:49 UTC] PHP Stack trace:
+[22-Sep-2025 09:55:49 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:55:49 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:55:49 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:55:49 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:55:49 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:55:49 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:55:49 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:55:49 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:55:49 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:55:49 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:55:49 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:55:49 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:55:49 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:55:49 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:55:49 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:55:49 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:57:50 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:57:50 UTC] PHP Stack trace:
+[22-Sep-2025 09:57:50 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:57:50 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:57:50 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:57:50 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:57:50 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:57:50 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:57:50 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:57:50 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:57:50 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:57:50 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:57:50 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:57:50 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:57:50 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:57:50 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:57:50 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:57:50 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
+[22-Sep-2025 09:59:51 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>flatsome</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php on line 6121
+[22-Sep-2025 09:59:51 UTC] PHP Stack trace:
+[22-Sep-2025 09:59:51 UTC] PHP   1. {main}() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:0
+[22-Sep-2025 09:59:51 UTC] PHP   2. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-admin/admin-ajax.php:22
+[22-Sep-2025 09:59:51 UTC] PHP   3. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-load.php:50
+[22-Sep-2025 09:59:51 UTC] PHP   4. require_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-config.php:104
+[22-Sep-2025 09:59:51 UTC] PHP   5. include() /Volumes/DataInstallation/WFH/transportation-project-system/wp-settings.php:695
+[22-Sep-2025 09:59:51 UTC] PHP   6. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/functions.php:3
+[22-Sep-2025 09:59:51 UTC] PHP   7. require() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/init.php:237
+[22-Sep-2025 09:59:51 UTC] PHP   8. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/admin-init.php:48
+[22-Sep-2025 09:59:51 UTC] PHP   9. include_once() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header.php:16
+[22-Sep-2025 09:59:51 UTC] PHP  10. __() /Volumes/DataInstallation/WFH/transportation-project-system/wp-content/themes/flatsome/inc/admin/options/header/options-header-logo.php:106
+[22-Sep-2025 09:59:51 UTC] PHP  11. translate() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:307
+[22-Sep-2025 09:59:51 UTC] PHP  12. get_translations_for_domain() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:195
+[22-Sep-2025 09:59:51 UTC] PHP  13. _load_textdomain_just_in_time() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1409
+[22-Sep-2025 09:59:51 UTC] PHP  14. _doing_it_wrong() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/l10n.php:1379
+[22-Sep-2025 09:59:51 UTC] PHP  15. wp_trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6061
+[22-Sep-2025 09:59:51 UTC] PHP  16. trigger_error() /Volumes/DataInstallation/WFH/transportation-project-system/wp-includes/functions.php:6121
